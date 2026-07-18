@@ -165,7 +165,7 @@
 // let student = studentList.find(student => student.id === "003");
 // console.log(student);
 
-fetch("/customers.json").then(res=>res.json()).then(data=>{
+fetch("https://jsonplaceholder.typicode.com/todos/1").then(res=>res.json()).then(data=>{
     console.log(data);
     
 })
