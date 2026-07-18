@@ -134,13 +134,18 @@
 
 // console.log(sample("Hi saman"));
 
-const productsList = [
-    { name: "bun", inStock: true },
-    { name: "car", inStock: false },
-    { name: "bat", inStock: true },
-    { name: "van", inStock: false },
-];
+// const productsList = [
+//     { name: "bun", inStock: true },
+//     { name: "car", inStock: false },
+//     { name: "bat", inStock: true },
+//     { name: "van", inStock: false },
+// ];
 
-productsList.forEach(product => console.log(product));
+// productsList.forEach(product => console.log(product));
 
+
+const latterLirst = ["A","B","C","D"];
+
+let sortAr = latterLirst.toSorted();
+console.log(sortAr);
 
