@@ -144,8 +144,8 @@
 // productsList.forEach(product => console.log(product));
 
 
-const latterLirst = ["A","B","C","D"];
+// const latterLirst = ["A","B","C","D"];
 
-let sortAr = latterLirst.toSorted();
-console.log(sortAr);
+// let sortAr = latterLirst.toSorted();
+// console.log(sortAr);
 
