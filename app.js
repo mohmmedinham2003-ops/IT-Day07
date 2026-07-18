@@ -165,7 +165,23 @@
 // let student = studentList.find(student => student.id === "003");
 // console.log(student);
 
-fetch("https://jsonplaceholder.typicode.com/todos/1").then(res=>res.json()).then(data=>{
-    console.log(data);
+fetch("https://fakestoreapi.com/").then(res=>res.json()).then(data=>{
+console.log(data);
+
+let card = document.getElementById(card);
+let body=""
+data.array.forEach(element => {
+   body+=`
+   <div class="card" style="width: 18rem;">
+        <img src="" class="card-img-top" alt="">
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">hjghj</p>
+            <a href="#" class="btn btn-primary"></a>
+        </div>
+    </div>
+   ` 
+});
+card.innerHTML = body;
     
 })
