@@ -63,16 +63,16 @@
 // console.log(revAr);
 
 
-const products = [
-    { name: "bun", inStock: true },
-    { name: "car", inStock: false },
-    { name: "bat", inStock: true },
-    { name: "van", inStock: false },
-];
+// const products = [
+//     { name: "bun", inStock: true },
+//     { name: "car", inStock: false },
+//     { name: "bat", inStock: true },
+//     { name: "van", inStock: false },
+// ];
 
 // final watch Line
 
-let inStockItems = products.filter(product => product.inStock == false);
+// let inStockItems = products.filter(product => product.inStock == false);
 
 // let inStockItems = products.filter(
 //     function (product) {
@@ -133,3 +133,14 @@ let inStockItems = products.filter(product => product.inStock == false);
 
 
 // console.log(sample("Hi saman"));
+
+const productsList = [
+    { name: "bun", inStock: true },
+    { name: "car", inStock: false },
+    { name: "bat", inStock: true },
+    { name: "van", inStock: false },
+];
+
+productsList.forEach(product => console.log(product));
+
+
