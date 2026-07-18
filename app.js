@@ -11,12 +11,19 @@
 // console.log(revAr);
 
 //------       ----------------
+const products = [
+{name:"bun", inStock:true},
+{name:"car", inStock:false},
+{name:"bat", inStock:true},
+{name:"van", inStock:false}
+
+]
 
 //let inStockItems = products.filter(product => product.inStock == false);
 
 let inStockItems = products.filter(
     function (product) {
-        return productFilter(product);
+        return productFilter(product)
 
     }
 )
