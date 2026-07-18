@@ -149,3 +149,8 @@
 // let sortAr = latterLirst.toSorted();
 // console.log(sortAr);
 
+const employeeSalary = [75000,25000,45000,55000];
+
+let newSalaryArray = employeeSalary.map(salary => salary * 2);
+
+console.log(newSalaryArray);
