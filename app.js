@@ -155,12 +155,17 @@
 
 // console.log(newSalaryArray);
 
-const studentList = [
-    {id:"001",name:"Saman"},
-    {id:"002",name:"Kamal"},
-    {id:"003",name:"Wimal"},
-    {id:"004",name:"ramal"}
-];
+// const studentList = [
+//     {id:"001",name:"Saman"},
+//     {id:"002",name:"Kamal"},
+//     {id:"003",name:"Wimal"},
+//     {id:"004",name:"ramal"}
+// ];
 
-let student = studentList.find(student => student.id === "003");
-console.log(student);
+// let student = studentList.find(student => student.id === "003");
+// console.log(student);
+
+fetch("/customers.json").then(res=>res.json()).then(data=>{
+    console.log(data);
+    
+})
