@@ -129,7 +129,7 @@ let inStockItems = products.filter(product => product.inStock == false);
 
 // Step 06 --------------------------------------
 
-let sample = txtValue => txtValue;
+// let sample = txtValue => txtValue;
 
 
-console.log(sample("Hi saman"));
+// console.log(sample("Hi saman"));
