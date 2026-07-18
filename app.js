@@ -149,8 +149,18 @@
 // let sortAr = latterLirst.toSorted();
 // console.log(sortAr);
 
-const employeeSalary = [75000,25000,45000,55000];
+// const employeeSalary = [75000,25000,45000,55000];
 
-let newSalaryArray = employeeSalary.map(salary => salary * 2);
+// let newSalaryArray = employeeSalary.map(salary => salary * 2);
 
-console.log(newSalaryArray);
+// console.log(newSalaryArray);
+
+const studentList = [
+    {id:"001",name:"Saman"},
+    {id:"002",name:"Kamal"},
+    {id:"003",name:"Wimal"},
+    {id:"004",name:"ramal"}
+];
+
+let student = studentList.find(student => student.id === "003");
+console.log(student);
