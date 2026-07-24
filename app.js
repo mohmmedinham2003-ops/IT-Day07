@@ -72,6 +72,7 @@ let revAr = customerList.reverse();
 console.log(revAr);
 
 
+
 // const products = [
 //     { name: "bun", inStock: true },
 //     { name: "car", inStock: false },
